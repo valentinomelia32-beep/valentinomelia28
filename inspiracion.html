@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiración | Valentino Melia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo">Portfolio</a>
+            <a href="index.html" class="links">← Volver al portfolio</a>
+        </nav>
+    </header>
+
+    <main class="sec">
+        <h3>1. Portfolios de referencia</h3>
+        <div class="grid">
+            <article class="card">
+                <h4>Tania Rascia</h4>
+                <p><strong>URL:</strong> <a href="https://www.taniarascia.com" target="_blank">https://www.taniarascia.com</a></p>
+                <p>Me gustó lo claro y ordenado que tiene todo, sin efectos exagerados que distraigan. Me sirvió para pensar cómo presentar mis proyectos con una descripción corta, etiquetas simples y buena lectura tanto en fondo oscuro como claro.</p>
+            </article>
+            <article class="card">
+                <h4>Matt Farley</h4>
+                <p><strong>URL:</strong> <a href="https://mattfarley.ca" target="_blank">https://mattfarley.ca</a></p>
+                <p>Me llamó la atención cómo arranca directo con su presentación y después va bajando por bloques bien marcados hasta el contacto. De ahí saqué la idea de armar todo en una sola página con navegación interna y un color principal que resalte.</p>
+            </article>
+            <article class="card">
+                <h4>Josh W. Comeau</h4>
+                <p><strong>URL:</strong> <a href="https://www.joshwcomeau.com" target="_blank">https://www.joshwcomeau.com</a></p>
+                <p>Me gustó cómo usa los contrastes y los pequeños detalles interactivos para que la página se sienta viva. Me inspiró para sumar el cambio de tema con JavaScript y cuidar que los botones y bordes se diferencien bien.</p>
+            </article>
+        </div>
+
+        <h3 style="margin-top: 2rem;">2. Mis decisiones de diseño</h3>
+        <ul class="skills" style="flex-direction: column;">
+            <li><strong>Paleta en rojo y cambio de tema:</strong> Elegí el rojo (`#ef4444` en oscuro y `#dc2626` en claro) como color principal porque resalta bien sobre el fondo oscuro y le da carácter a la página, manteniendo el botón para alternar entre modo oscuro y modo claro según prefiera quien la lea.</li>
+            <li><strong>Todo en una página:</strong> Preferí juntar las secciones en el <code>index.html</code> con anclas y <code>scroll-behavior: smooth</code> para moverse rápido de un tema a otro sin tener que abrir páginas distintas.</li>
+            <li><strong>Acomodo en distintas pantallas:</strong> Usé CSS Grid en las tarjetas y un ajuste en <code>@media</code> para que en el celu no quede todo apretado ni se rompa el diseño.</li>
+        </ul>
+
+        <h3 style="margin-top: 2rem;">3. Qué aprendí en este proceso</h3>
+        <p style="margin-bottom: 1rem;">En este trabajo aprendí que armar un portfolio no es solo escribir código, sino pensar cómo va a navegar la página alguien que entra por primera vez. Lo que más me costó fue ajustar el diseño responsivo y los contrastes de color para que todo se vea prolijo tanto en la computadora como en el celular.</p>
+        <p>También me sirvió mucho conectar el formulario con Formspree para recibir los mensajes sin armar un servidor propio, validar los datos con JavaScript antes de enviarlos cómo funciona el despliegue en GitHub Pages cuidando las rutas de cada archivo. Si arrancara de cero, definiría desde el principio la estructura de carpetas y la paleta definitiva para no tener que corregir detalles.</p>
+    </main>
+
+    <footer>
+        <p><a href="index.html">← Volver al portfolio principal</a></p>
+    </footer>
+</body>
+</html>
